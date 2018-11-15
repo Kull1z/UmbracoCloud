@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Cloud.Web", "Cloud.Web\", "{D2FBA324-6FCA-407C-BAD6-8AC4251D1F05}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{23e908fb-3b3b-423a-b78f-108dee498169}|Cloud.Core.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4458"
+		Debug.AspNetCompiler.PhysicalPath = "Cloud.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4458\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4458"
+		Release.AspNetCompiler.PhysicalPath = "Cloud.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4458\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4458"
+		SlnRelativePath = "Cloud.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{23E908FB-3B3B-423A-B78F-108DEE498169} = {23E908FB-3B3B-423A-B78F-108DEE498169}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Core", "Cloud.Core\Cloud.Core.csproj", "{23E908FB-3B3B-423A-B78F-108DEE498169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FBA324-6FCA-407C-BAD6-8AC4251D1F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FBA324-6FCA-407C-BAD6-8AC4251D1F05}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E908FB-3B3B-423A-B78F-108DEE498169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E908FB-3B3B-423A-B78F-108DEE498169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E908FB-3B3B-423A-B78F-108DEE498169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E908FB-3B3B-423A-B78F-108DEE498169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88991468-B9A8-4B19-98D7-155A0237F764}
+	EndGlobalSection
+EndGlobal

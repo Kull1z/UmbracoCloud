@@ -1,0 +1,1 @@
+git clone https://dev-clouddeveloper-jocke90-hotmail-com.scm.s1.umbraco.io/ad3d3c12-108d-455f-bf62-b43cfde87bcd.git Cloud.Web
